@@ -1,0 +1,27 @@
+body {
+	padding: 2em;
+}
+
+input {
+	color: darkgray;
+	font-size: 1em;
+	padding: 5px 10px;
+	width: 100%;
+	border-radius: 0.5em;
+	border:  1px solid darkgray;
+}
+
+.card-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	gap: 5px;
+}
+
+.card {
+	align-content: center;
+	border-radius: 15px;
+	overflow: hidden;
+	margin-bottom: 6px;
+	margin-left: 6px;
+	width: 100%;
+}
